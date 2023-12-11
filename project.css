@@ -1,0 +1,71 @@
+body {
+  background-color: #9dc0b5a7;
+  font-family: "Arial", sans-serif;
+}
+
+/* max width and margin: auto so the elements will be centered and will look good on smaller screens as well  */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+  padding-bottom: 40px;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+p {
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+select#city {
+  font-size: 16px;
+  padding: 8px;
+  margin-bottom: 20px;
+  background-color: rgb(217, 224, 216);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+/* border collapse: collapse so the table borders are collapsed into the same border, not seperated */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+table,
+th,
+td {
+  border: 1px solid #0f0e0e;
+}
+
+th,
+td {
+  padding: 12px;
+  text-align: left;
+  font-weight: 100;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+th {
+  background-color: rgb(137, 174, 136);
+}
+
+img {
+  max-width: 100px;
+  height: auto;
+}
+
+#data {
+  font-size: 18px;
+}
